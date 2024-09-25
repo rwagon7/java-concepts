@@ -41,18 +41,19 @@
  => Arrays.copyOfRange(T[] original, int from, int to)
 
 ## deepEquals, equals, deepHashCode & deepToString
-- 	deepEquals(Object[] a1, Object[] a2).
+- deepEquals(Object[] a1, Object[] a2).
 => Returns true if the two specified arrays are deeply equal to one another.
--   equals(boolean[] a, boolean[] a2)
+- equals(boolean[] a, boolean[] a2)
 => Returns true if the two specified arrays of booleans are equal to one another.
 -  deepHashCode(Object[] a)
 => returns a hashcode based on deep contents
 - deepToString(Object[] a)
 => Returns a string representation of the "deep contents" of the specified array.
-- 	equals(boolean[] a, int aFromIndex, int aToIndex, boolean[] b, int bFromIndex, int bToIndex)
+- equals(boolean[] a, int aFromIndex, int aToIndex, boolean[] b, int bFromIndex, int bToIndex)
 => This method is overloaded. Returns true if the two specified arrays of booleans, over the specified ranges, are equal to one another.
 
 ## fill
+- fill(int i)
 => fills the each and every element of array with a deafult value.
 
 ## hashCode
@@ -67,7 +68,7 @@
 - this method is overloaded
 - Sorts the specified array into ascending numerical order
 => parallelSort(byte[] a)
-- Sorts the specified range of the array into ascending numerical order. 
+- Sorts the specified range of the array into ascending numerical order.
 => parallelSort(double[] a, int fromIndex, int toIndex)
 
 ## setAll
@@ -77,13 +78,8 @@
 
 ## sort
 - sort(int[] a)
-=> Sorts the specified range of the array into acsending order
+=> Sorts the specified range of the array into ascending order
 
 ## Stream
 - stream(T[] a)
-=> converts array ito streams
-
-
-
-
-
+=> converts array into streams

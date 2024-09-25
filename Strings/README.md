@@ -8,12 +8,11 @@
 - String s = new String(data);
 
 ## Constructor intialization
-=> can bbe used with byte[] which gets converted into string
+- can be used with byte[] which gets converted into string, constructor is overloaded.
 - String(byte[] bytes, Charset charset);
 => Constructs a new String by decoding the specified array of bytes using the specified charset.
 - String(int[] codePoints, int offset, int count);
 => Initializes a newly created String object so that it represents the same sequence of characters as the argument; in other words, the newly created string is a copy of the argument string.
-=> 
 - String(StringBuffer buffer)
 => Allocates a new string that contains the sequence of characters currently contained in the string builder argument.
 - String(StringBuilder builder)
